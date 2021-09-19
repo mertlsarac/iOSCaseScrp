@@ -15,15 +15,6 @@
 		2662EFB526F7ACD3007184DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2662EFB326F7ACD3007184DA /* LaunchScreen.storyboard */; };
 		2662EFC026F7ACD3007184DA /* iOSCaseScrpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2662EFBF26F7ACD3007184DA /* iOSCaseScrpTests.swift */; };
 		2662EFCB26F7ACD3007184DA /* iOSCaseScrpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2662EFCA26F7ACD3007184DA /* iOSCaseScrpUITests.swift */; };
-		2662EFDD26F7AD0A007184DA /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2662EFD926F7AD0A007184DA /* Result.swift */; };
-		2662EFDE26F7AD0A007184DA /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2662EFDA26F7AD0A007184DA /* DataSource.swift */; };
-		2662EFDF26F7AD0A007184DA /* PeopleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2662EFDB26F7AD0A007184DA /* PeopleManager.swift */; };
-		2662EFE026F7AD0A007184DA /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2662EFDC26F7AD0A007184DA /* TimerManager.swift */; };
-		2662EFE826F7AD23007184DA /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2662EFE226F7AD22007184DA /* UILabel.swift */; };
-		2662EFE926F7AD23007184DA /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2662EFE326F7AD22007184DA /* UIViewController.swift */; };
-		2662EFEA26F7AD23007184DA /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2662EFE426F7AD23007184DA /* Storyboard.swift */; };
-		2662EFEC26F7AD23007184DA /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2662EFE626F7AD23007184DA /* UIButton.swift */; };
-		2662EFED26F7AD23007184DA /* UIRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2662EFE726F7AD23007184DA /* UIRefreshControl.swift */; };
 		2662EFF926F7ADFA007184DA /* People.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2662EFF326F7ADFA007184DA /* People.storyboard */; };
 		2662EFFA26F7ADFA007184DA /* PeoplePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2662EFF426F7ADFA007184DA /* PeoplePresenter.swift */; };
 		2662EFFB26F7ADFA007184DA /* PeopleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2662EFF526F7ADFA007184DA /* PeopleRouter.swift */; };
@@ -31,6 +22,15 @@
 		2662EFFD26F7ADFA007184DA /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2662EFF726F7ADFA007184DA /* PeopleViewController.swift */; };
 		2662EFFE26F7ADFA007184DA /* PeopleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2662EFF826F7ADFA007184DA /* PeopleInteractor.swift */; };
 		2662F00126F7AE2C007184DA /* PeopleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2662F00026F7AE2C007184DA /* PeopleTableViewCell.swift */; };
+		2662F00426F7B460007184DA /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2662F00326F7B460007184DA /* Storyboard.swift */; };
+		2662F00626F7B467007184DA /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2662F00526F7B467007184DA /* UIButton.swift */; };
+		2662F00826F7B470007184DA /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2662F00726F7B470007184DA /* UILabel.swift */; };
+		2662F00A26F7B479007184DA /* UIRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2662F00926F7B479007184DA /* UIRefreshControl.swift */; };
+		2662F00C26F7B481007184DA /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2662F00B26F7B481007184DA /* UIViewController.swift */; };
+		2662F00F26F7B4CE007184DA /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2662F00E26F7B4CE007184DA /* DataSource.swift */; };
+		2662F01126F7B4D4007184DA /* PeopleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2662F01026F7B4D4007184DA /* PeopleManager.swift */; };
+		2662F01326F7B4D9007184DA /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2662F01226F7B4D9007184DA /* Result.swift */; };
+		2662F01526F7B4E0007184DA /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2662F01426F7B4E0007184DA /* TimerManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,15 +65,6 @@
 		2662EFC626F7ACD3007184DA /* iOSCaseScrpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSCaseScrpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2662EFCA26F7ACD3007184DA /* iOSCaseScrpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSCaseScrpUITests.swift; sourceTree = "<group>"; };
 		2662EFCC26F7ACD3007184DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2662EFD926F7AD0A007184DA /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Result.swift; path = ../../../../Desktop/Result.swift; sourceTree = "<group>"; };
-		2662EFDA26F7AD0A007184DA /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataSource.swift; path = ../../../../iOSCaseScorp/iOSCase/Utils/DataSource.swift; sourceTree = "<group>"; };
-		2662EFDB26F7AD0A007184DA /* PeopleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PeopleManager.swift; path = ../../../../Desktop/PeopleManager.swift; sourceTree = "<group>"; };
-		2662EFDC26F7AD0A007184DA /* TimerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimerManager.swift; path = ../../../../Desktop/TimerManager.swift; sourceTree = "<group>"; };
-		2662EFE226F7AD22007184DA /* UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UILabel.swift; path = ../../../../Desktop/UILabel.swift; sourceTree = "<group>"; };
-		2662EFE326F7AD22007184DA /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewController.swift; path = ../../../../Desktop/UIViewController.swift; sourceTree = "<group>"; };
-		2662EFE426F7AD23007184DA /* Storyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Storyboard.swift; path = ../../../../Desktop/Storyboard.swift; sourceTree = "<group>"; };
-		2662EFE626F7AD23007184DA /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIButton.swift; path = ../../../../Desktop/UIButton.swift; sourceTree = "<group>"; };
-		2662EFE726F7AD23007184DA /* UIRefreshControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIRefreshControl.swift; path = ../../../../Desktop/UIRefreshControl.swift; sourceTree = "<group>"; };
 		2662EFF326F7ADFA007184DA /* People.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = People.storyboard; sourceTree = "<group>"; };
 		2662EFF426F7ADFA007184DA /* PeoplePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeoplePresenter.swift; sourceTree = "<group>"; };
 		2662EFF526F7ADFA007184DA /* PeopleRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleRouter.swift; sourceTree = "<group>"; };
@@ -81,6 +72,15 @@
 		2662EFF726F7ADFA007184DA /* PeopleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
 		2662EFF826F7ADFA007184DA /* PeopleInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleInteractor.swift; sourceTree = "<group>"; };
 		2662F00026F7AE2C007184DA /* PeopleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleTableViewCell.swift; sourceTree = "<group>"; };
+		2662F00326F7B460007184DA /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
+		2662F00526F7B467007184DA /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		2662F00726F7B470007184DA /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		2662F00926F7B479007184DA /* UIRefreshControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIRefreshControl.swift; sourceTree = "<group>"; };
+		2662F00B26F7B481007184DA /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		2662F00E26F7B4CE007184DA /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		2662F01026F7B4D4007184DA /* PeopleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleManager.swift; sourceTree = "<group>"; };
+		2662F01226F7B4D9007184DA /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		2662F01426F7B4E0007184DA /* TimerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,10 +131,10 @@
 		2662EFA726F7ACD0007184DA /* iOSCaseScrp */ = {
 			isa = PBXGroup;
 			children = (
+				2662F00D26F7B4BF007184DA /* Utils */,
+				2662F00226F7B450007184DA /* Extensions */,
 				2662EFF126F7ADDF007184DA /* Scenes */,
 				2662EFEE26F7AD43007184DA /* Application */,
-				2662EFE126F7AD11007184DA /* Extensions */,
-				2662EFD826F7ACF4007184DA /* Utils */,
 				2662EFAC26F7ACD0007184DA /* ViewController.swift */,
 				2662EFAE26F7ACD0007184DA /* Main.storyboard */,
 				2662EFB126F7ACD3007184DA /* Assets.xcassets */,
@@ -159,29 +159,6 @@
 				2662EFCC26F7ACD3007184DA /* Info.plist */,
 			);
 			path = iOSCaseScrpUITests;
-			sourceTree = "<group>";
-		};
-		2662EFD826F7ACF4007184DA /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				2662EFDA26F7AD0A007184DA /* DataSource.swift */,
-				2662EFDB26F7AD0A007184DA /* PeopleManager.swift */,
-				2662EFD926F7AD0A007184DA /* Result.swift */,
-				2662EFDC26F7AD0A007184DA /* TimerManager.swift */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		2662EFE126F7AD11007184DA /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				2662EFE426F7AD23007184DA /* Storyboard.swift */,
-				2662EFE626F7AD23007184DA /* UIButton.swift */,
-				2662EFE226F7AD22007184DA /* UILabel.swift */,
-				2662EFE726F7AD23007184DA /* UIRefreshControl.swift */,
-				2662EFE326F7AD22007184DA /* UIViewController.swift */,
-			);
-			path = Extensions;
 			sourceTree = "<group>";
 		};
 		2662EFEE26F7AD43007184DA /* Application */ = {
@@ -238,6 +215,29 @@
 				2662F00026F7AE2C007184DA /* PeopleTableViewCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		2662F00226F7B450007184DA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2662F00326F7B460007184DA /* Storyboard.swift */,
+				2662F00526F7B467007184DA /* UIButton.swift */,
+				2662F00726F7B470007184DA /* UILabel.swift */,
+				2662F00926F7B479007184DA /* UIRefreshControl.swift */,
+				2662F00B26F7B481007184DA /* UIViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2662F00D26F7B4BF007184DA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2662F00E26F7B4CE007184DA /* DataSource.swift */,
+				2662F01026F7B4D4007184DA /* PeopleManager.swift */,
+				2662F01226F7B4D9007184DA /* Result.swift */,
+				2662F01426F7B4E0007184DA /* TimerManager.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -371,23 +371,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2662F00C26F7B481007184DA /* UIViewController.swift in Sources */,
 				2662EFAD26F7ACD0007184DA /* ViewController.swift in Sources */,
 				2662EFA926F7ACD0007184DA /* AppDelegate.swift in Sources */,
+				2662F00F26F7B4CE007184DA /* DataSource.swift in Sources */,
 				2662F00126F7AE2C007184DA /* PeopleTableViewCell.swift in Sources */,
 				2662EFFE26F7ADFA007184DA /* PeopleInteractor.swift in Sources */,
-				2662EFE926F7AD23007184DA /* UIViewController.swift in Sources */,
-				2662EFDD26F7AD0A007184DA /* Result.swift in Sources */,
 				2662EFFA26F7ADFA007184DA /* PeoplePresenter.swift in Sources */,
 				2662EFFB26F7ADFA007184DA /* PeopleRouter.swift in Sources */,
-				2662EFDE26F7AD0A007184DA /* DataSource.swift in Sources */,
-				2662EFDF26F7AD0A007184DA /* PeopleManager.swift in Sources */,
-				2662EFEA26F7AD23007184DA /* Storyboard.swift in Sources */,
+				2662F00426F7B460007184DA /* Storyboard.swift in Sources */,
 				2662EFFD26F7ADFA007184DA /* PeopleViewController.swift in Sources */,
-				2662EFED26F7AD23007184DA /* UIRefreshControl.swift in Sources */,
-				2662EFE026F7AD0A007184DA /* TimerManager.swift in Sources */,
+				2662F00626F7B467007184DA /* UIButton.swift in Sources */,
 				2662EFFC26F7ADFA007184DA /* PeopleEntity.swift in Sources */,
-				2662EFEC26F7AD23007184DA /* UIButton.swift in Sources */,
-				2662EFE826F7AD23007184DA /* UILabel.swift in Sources */,
+				2662F00826F7B470007184DA /* UILabel.swift in Sources */,
+				2662F00A26F7B479007184DA /* UIRefreshControl.swift in Sources */,
+				2662F01326F7B4D9007184DA /* Result.swift in Sources */,
+				2662F01526F7B4E0007184DA /* TimerManager.swift in Sources */,
+				2662F01126F7B4D4007184DA /* PeopleManager.swift in Sources */,
 				2662EFAB26F7ACD0007184DA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
